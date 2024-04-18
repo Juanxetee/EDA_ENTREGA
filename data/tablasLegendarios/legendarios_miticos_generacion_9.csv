@@ -1,0 +1,13 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+1001,Wo-Chien,Legendary,9,Original,Dark,Grass,85,85,100,95,135,70,570
+1002,Chien-Pao,Legendary,9,Original,Dark,Ice,80,120,80,90,65,135,570
+1003,Ting-Lu,Legendary,9,Original,Dark,Ground,155,110,125,55,80,45,570
+1004,Chi-Yu,Legendary,9,Original,Dark,Fire,55,80,80,135,120,100,570
+1007,Koraidon,Legendary,9,Original,Fighting,Dragon,100,135,115,85,100,135,670
+1008,Miraidon,Legendary,9,Original,Electric,Dragon,100,85,100,135,115,135,670
+1014,Okidogi,Legendary,9,Original,Poison,Fighting,88,128,115,58,86,80,555
+1015,Munkidori,Legendary,9,Original,Poison,Psychic,88,75,66,130,90,106,555
+1016,Fezandipiti,Legendary,9,Original,Poison,Fairy,88,91,82,70,125,99,555
+1017,Ogerpon,Legendary,9,Original,Grass,Grass,80,120,84,60,96,110,550
+1024,Terapagos,Legendary,9,Original,Normal,Normal,90,65,85,65,85,60,450
+1025,Pecharunt,Mythical,9,Original,Poison,Ghost,88,88,160,88,88,88,600

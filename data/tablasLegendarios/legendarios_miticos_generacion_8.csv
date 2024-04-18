@@ -1,0 +1,13 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+888,Zacian,Legendary,8,Original,Fairy,Fairy,92,120,115,80,115,138,660
+889,Zamazenta,Legendary,8,Original,Fighting,Fighting,92,120,115,80,115,138,660
+890,Eternatus,Legendary,8,Original,Poison,Dragon,140,85,95,145,95,130,690
+891,Kubfu,Legendary,8,Original,Fighting,Fighting,60,90,60,53,50,72,385
+892,Urshifu,Legendary,8,Kubfu,Fighting,Dark,100,130,100,63,60,97,550
+893,Zarude,Mythical,8,Original,Dark,Grass,105,120,105,70,95,105,600
+894,Regieleki,Legendary,8,Original,Electric,Electric,80,100,50,100,50,200,580
+895,Regidrago,Legendary,8,Original,Dragon,Dragon,200,100,50,100,50,80,580
+896,Glastrier,Legendary,8,Original,Ice,Ice,100,145,130,65,110,30,580
+897,Spectrier,Legendary,8,Original,Ghost,Ghost,100,65,60,145,80,130,580
+898,Calyrex,Legendary,8,Original,Psychic,Grass,100,80,80,80,80,80,500
+905,Enamorus,Legendary,8,Original,Fairy,Flying,74,115,70,135,80,106,580

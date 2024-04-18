@@ -1,0 +1,14 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+494,Victini,Mythical,5,Original,Psychic,Fire,100,100,100,100,100,100,600
+638,Cobalion,Legendary,5,Original,Steel,Fighting,91,90,129,90,72,108,580
+639,Terrakion,Legendary,5,Original,Rock,Fighting,91,129,90,72,90,108,580
+640,Virizion,Legendary,5,Original,Grass,Fighting,91,90,72,90,129,108,580
+641,Tornadus,Legendary,5,Original,Flying,Flying,79,115,70,125,80,111,580
+642,Thundurus,Legendary,5,Original,Electric,Flying,79,115,70,125,80,111,580
+643,Reshiram,Legendary,5,Original,Dragon,Fire,100,120,100,150,120,90,680
+644,Zekrom,Legendary,5,Original,Dragon,Electric,100,150,120,120,100,90,680
+645,Landorus,Legendary,5,Original,Ground,Flying,89,125,90,115,80,101,600
+646,Kyurem,Legendary,5,Original,Dragon,Ice,125,130,90,130,90,95,660
+647,Keldeo,Mythical,5,Original,Water,Fighting,91,72,90,129,90,108,580
+648,Meloetta,Mythical,5,Original,Normal,Psychic,100,77,77,128,128,90,600
+649,Genesect,Mythical,5,Original,Bug,Steel,71,120,95,120,95,99,600

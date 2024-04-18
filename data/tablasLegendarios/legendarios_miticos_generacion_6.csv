@@ -1,0 +1,7 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+716,Xerneas,Legendary,6,Original,Fairy,Fairy,126,131,95,131,98,99,680
+717,Yveltal,Legendary,6,Original,Dark,Flying,126,131,95,131,98,99,680
+718,Zygarde,Legendary,6,Original,Dragon,Ground,108,100,121,81,95,95,600
+719,Diancie,Mythical,6,Original,Rock,Fairy,50,100,150,100,150,50,600
+720,Hoopa,Mythical,6,Original,Psychic,Ghost,80,110,60,150,130,70,600
+721,Volcanion,Mythical,6,Original,Fire,Water,80,110,120,130,90,70,600

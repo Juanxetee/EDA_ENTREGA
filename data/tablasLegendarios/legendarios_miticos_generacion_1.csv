@@ -1,0 +1,6 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+144,Articuno,Legendary,1,Original,Ice,Flying,90,85,100,95,125,85,580
+145,Zapdos,Legendary,1,Original,Electric,Flying,90,90,85,125,90,100,580
+146,Moltres,Legendary,1,Original,Fire,Flying,90,100,90,125,85,90,580
+150,Mewtwo,Legendary,1,Original,Psychic,Psychic,106,110,90,154,90,130,680
+151,Mew,Mythical,1,Original,Psychic,Psychic,100,100,100,100,100,100,600

@@ -1,0 +1,16 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+773,Silvally,Legendary,7,Type-Null,Normal,Normal,95,95,95,95,95,95,570
+785,Tapu-Koko,Legendary,7,Original,Electric,Fairy,70,115,85,95,75,130,570
+786,Tapu-Lele,Legendary,7,Original,Psychic,Fairy,70,85,75,130,115,95,570
+787,Tapu-Bulu,Legendary,7,Original,Grass,Fairy,70,130,115,85,95,75,570
+788,Tapu-Fini,Legendary,7,Original,Water,Fairy,70,75,115,95,130,85,570
+789,Cosmog,Legendary,7,Original,Psychic,Psychic,43,29,31,29,31,37,200
+790,Cosmoem,Legendary,7,Cosmog,Psychic,Psychic,43,29,131,29,131,37,400
+791,Solgaleo,Legendary,7,Cosmoem,Psychic,Steel,137,137,107,113,89,97,680
+792,Lunala,Legendary,7,Cosmoem,Psychic,Ghost,137,113,89,137,107,97,680
+800,Necrozma,Legendary,7,Original,Psychic,Psychic,97,107,101,127,89,79,600
+801,Magearna,Mythical,7,Original,Steel,Fairy,80,95,115,130,115,65,600
+802,Marshadow,Mythical,7,Original,Fighting,Ghost,90,125,80,90,90,125,600
+807,Zeraora,Mythical,7,Original,Electric,Electric,88,112,75,102,80,143,600
+808,Meltan,Mythical,7,Original,Steel,Steel,46,65,65,55,35,34,300
+809,Melmetal,Mythical,7,Meltan,Steel,Steel,135,143,143,80,65,34,600

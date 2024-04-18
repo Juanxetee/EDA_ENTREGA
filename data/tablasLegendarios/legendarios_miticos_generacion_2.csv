@@ -1,0 +1,7 @@
+index,name,rank,generation,evolves_from,type1,type2,hp,atk,def,spatk,spdef,speed,total
+243,Raikou,Legendary,2,Original,Electric,Electric,90,85,75,115,100,115,580
+244,Entei,Legendary,2,Original,Fire,Fire,115,115,85,90,75,100,580
+245,Suicune,Legendary,2,Original,Water,Water,100,75,115,90,115,85,580
+249,Lugia,Legendary,2,Original,Psychic,Flying,106,90,130,90,154,110,680
+250,Ho-Oh,Legendary,2,Original,Fire,Flying,106,130,90,110,154,90,680
+251,Celebi,Mythical,2,Original,Psychic,Grass,100,100,100,100,100,100,600
