@@ -27,80 +27,81 @@ def clean_generation(cell_value):
     
     
 # Metodo para comparar atributos pokemon
-def compara(p1, p2, c):
-    comp = pokemon[(pokemon['name'] == p1) | (pokemon['name'] == p2)]
+def compara(df,p1, p2, c):
+    comp = df[(df['name'] == p1) | (df['name'] == p2)]
     sns.barplot(x = 'name', y = c, data = comp,hue= 'name', legend=False, palette = "Set1")
     
     
-def combate(p1,p2,p3,p4,p5): # Metodo para comparar el poder total de 5 pokemon a la vez
-    x = pokemon[pokemon["name"] == p1]
+def combate(df, p1, p2, p3, p4, p5):
+    # Selecciona los datos de los Pokémon en el DataFrame
+    x = df[df["name"] == p1]
+    # Crea un gráfico polar para el primer Pokémon
     trace1 = go.Scatterpolar(
-      r = [x['hp'].values[0],x['atk'].values[0],x['def'].values[0],x['spatk'].values[0],x['spdef'].values[0],x['speed'].values[0],x["hp"].values[0]],
-      theta = ['hp','atk','def','spatk','spdef','speed'],
-      fill = 'toself',
-      name = p1
-    )
-    x = pokemon[pokemon["name"] == p2]
-    trace2 = go.Scatterpolar(
-      r = [x['hp'].values[0],x['atk'].values[0],x['def'].values[0],x['spatk'].values[0],x['spdef'].values[0],x['speed'].values[0],x["hp"].values[0]],
-      theta = ['hp','atk','def','spatk','spdef','speed'],
-      fill = 'toself',
-      name = p2
-    )
-    x = pokemon[pokemon["name"] == p3]
-    trace3 = go.Scatterpolar(
-      r = [x['hp'].values[0],x['atk'].values[0],x['def'].values[0],x['spatk'].values[0],x['spdef'].values[0],x['speed'].values[0],x["hp"].values[0]],
-      theta = ['hp','atk','def','spatk','spdef','speed'],
-      fill = 'toself',
-      name = p3
-    )
-    x = pokemon[pokemon["name"] == p4]
-    trace4 = go.Scatterpolar(
-      r = [x['hp'].values[0],x['atk'].values[0],x['def'].values[0],x['spatk'].values[0],x['spdef'].values[0],x['speed'].values[0],x["hp"].values[0]],
-      theta = ['hp','atk','def','spatk','spdef','speed'],
-      fill = 'toself',
-      name = p4
-    )
-    x = pokemon[pokemon["name"] == p5]
-    trace5 = go.Scatterpolar(
-      r = [x['hp'].values[0],x['atk'].values[0],x['def'].values[0],x['spatk'].values[0],x['spdef'].values[0],x['speed'].values[0],x["hp"].values[0]],
-      theta = ['hp','atk','def','spatk','spdef','speed'],
-      fill = 'toself',
-      name = p5
+        r = [x['hp'].values[0], x['atk'].values[0], x['def'].values[0], 
+             x['spatk'].values[0], x['spdef'].values[0], x['speed'].values[0], 
+             x["hp"].values[0]],
+        theta = ['hp', 'atk', 'def', 'spatk', 'spdef', 'speed'],
+        fill = 'toself',
+        name = p1
     )
     
+    # Repite el proceso para los otros Pokémon
+    x = df[df["name"] == p2]
+    trace2 = go.Scatterpolar(
+        r = [x['hp'].values[0], x['atk'].values[0], x['def'].values[0], 
+             x['spatk'].values[0], x['spdef'].values[0], x['speed'].values[0], 
+             x["hp"].values[0]],
+        theta = ['hp', 'atk', 'def', 'spatk', 'spdef', 'speed'],
+        fill = 'toself',
+        name = p2
+    )
+    
+    x = df[df["name"] == p3]
+    trace3 = go.Scatterpolar(
+        r = [x['hp'].values[0], x['atk'].values[0], x['def'].values[0], 
+             x['spatk'].values[0], x['spdef'].values[0], x['speed'].values[0], 
+             x["hp"].values[0]],
+        theta = ['hp', 'atk', 'def', 'spatk', 'spdef', 'speed'],
+        fill = 'toself',
+        name = p3
+    )
+    
+    x = df[df["name"] == p4]
+    trace4 = go.Scatterpolar(
+        r = [x['hp'].values[0], x['atk'].values[0], x['def'].values[0], 
+             x['spatk'].values[0], x['spdef'].values[0], x['speed'].values[0], 
+             x["hp"].values[0]],
+        theta = ['hp', 'atk', 'def', 'spatk', 'spdef', 'speed'],
+        fill = 'toself',
+        name = p4
+    )
+    
+    x = df[df["name"] == p5]
+    trace5 = go.Scatterpolar(
+        r = [x['hp'].values[0], x['atk'].values[0], x['def'].values[0], 
+             x['spatk'].values[0], x['spdef'].values[0], x['speed'].values[0], 
+             x["hp"].values[0]],
+        theta = ['hp', 'atk', 'def', 'spatk', 'spdef', 'speed'],
+        fill = 'toself',
+        name = p5
+    )
+    
+    # Configuración del layout del gráfico
     layout = go.Layout(
-      xaxis=dict(
-            domain=[0, 0.45]
-        ),
-        yaxis=dict(
-            domain=[0, 0.45]
-        ),
-        xaxis2=dict(
-            domain=[0.55, 1]
-        ),
-        xaxis3=dict(
-            domain=[0, 0.45],
-            anchor='y3'
-        ),
-        xaxis4=dict(
-            domain=[0.55, 1],
-            anchor='y4'
-        ),
-        yaxis2=dict(
-            domain=[0, 0.45],
-            anchor='x2'
-        ),
-        yaxis4=dict(
-            domain=[0.55, 1],
-            anchor='x4'
-        ),
-        
-      showlegend = True,
-      title = "Combate Pokémon"
+        xaxis=dict(domain=[0, 0.45]),
+        yaxis=dict(domain=[0, 0.45]),
+        xaxis2=dict(domain=[0.55, 1]),
+        xaxis3=dict(domain=[0, 0.45], anchor='y3'),
+        xaxis4=dict(domain=[0.55, 1], anchor='y4'),
+        yaxis2=dict(domain=[0, 0.45], anchor='x2'),
+        yaxis4=dict(domain=[0.55, 1], anchor='x4'),
+        showlegend=True,
+        title="Combate Pokémon"
     )
 
-    data = [trace1, trace2, trace3,trace4,trace5]
+    # Crea el objeto figura con los datos y el layout
+    data = [trace1, trace2, trace3, trace4, trace5]
     fig = go.Figure(data=data, layout=layout)
 
-    iplot(fig, filename = "Pokemon stats")
+    # Muestra el gráfico
+    iplot(fig, filename="Pokemon stats")
